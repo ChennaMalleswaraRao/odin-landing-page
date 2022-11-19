@@ -19,10 +19,12 @@ body{
     gap: 16px;
     font-size: 18px;
     padding-top: 1rem;
+   
     
 } 
 .logo{
     font-size: 24px;
+    
 }
 .main{
     display: flex;
@@ -95,14 +97,51 @@ div.img1{
 }
 
 .quote div{
-    font-weight: bolder;
+    font-weight: 900;
     float: right;
     padding: 36px;
-    font-style: normal;
-    
-
-    
+    font-style: normal; 
 } 
+
+.blue-box{
+    display: flex;
+    padding: 16px 10rem 16px 10rem; 
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.call-action{
+  display: flex;
+  gap: 60px;
+  background-color: #3882f6;
+  color: whitesmoke;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin: 5rem;
+  border-radius: 20px;
+
+}
+.call-action strong {
+    font-size: 24px;
+}
+.call-action button{
+    background-color: #3882f6;
+    color: whitesmoke;
+    font-size: 18px;
+    border-radius: 5px;
+    border: whitesmoke solid 2px;
+     
+}
+footer{
+    background-color: #1F2937;
+    color: whitesmoke;
+    text-align: center;
+    padding: 1.5rem;
+    
+}
 
 
     
